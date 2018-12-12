@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "Mug.CheckoutApp.Strategy/1.0.0": {
+        "dependencies": {
+          "Mug.CheckoutApp.Data": "1.0.0"
+        },
+        "runtime": {
+          "Mug.CheckoutApp.Strategy.dll": {}
+        }
+      },
+      "Mug.CheckoutApp.Data/1.0.0": {
+        "runtime": {
+          "Mug.CheckoutApp.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mug.CheckoutApp.Strategy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mug.CheckoutApp.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

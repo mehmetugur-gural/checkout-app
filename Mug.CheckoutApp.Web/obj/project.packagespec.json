@@ -1,0 +1,54 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/mehmetugurgural/Git/Mug.CheckoutApp/Mug.CheckoutApp.Web/Mug.CheckoutApp.Web.csproj",
+    "projectName": "Mug.CheckoutApp.Web",
+    "projectPath": "/Users/mehmetugurgural/Git/Mug.CheckoutApp/Mug.CheckoutApp.Web/Mug.CheckoutApp.Web.csproj",
+    "outputPath": "/Users/mehmetugurgural/Git/Mug.CheckoutApp/Mug.CheckoutApp.Web/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {
+          "/Users/mehmetugurgural/Git/Mug.CheckoutApp/Mug.CheckoutApp.Data/Mug.CheckoutApp.Data.csproj": {
+            "projectPath": "/Users/mehmetugurgural/Git/Mug.CheckoutApp/Mug.CheckoutApp.Data/Mug.CheckoutApp.Data.csproj"
+          },
+          "/Users/mehmetugurgural/Git/Mug.CheckoutApp/Mug.CheckoutApp.Service/Mug.CheckoutApp.Service.csproj": {
+            "projectPath": "/Users/mehmetugurgural/Git/Mug.CheckoutApp/Mug.CheckoutApp.Service/Mug.CheckoutApp.Service.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Microsoft.AspNetCore.All": {
+          "target": "Package",
+          "version": "[2.0.9, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

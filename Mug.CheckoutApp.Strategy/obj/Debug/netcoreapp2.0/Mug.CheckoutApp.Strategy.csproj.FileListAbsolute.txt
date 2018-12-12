@@ -1,0 +1,10 @@
+/Users/mehmetugurgural/Git/Mug.CheckoutApp/Mug.CheckoutApp.Strategy/bin/Debug/netcoreapp2.0/Mug.CheckoutApp.Strategy.deps.json
+/Users/mehmetugurgural/Git/Mug.CheckoutApp/Mug.CheckoutApp.Strategy/bin/Debug/netcoreapp2.0/Mug.CheckoutApp.Strategy.dll
+/Users/mehmetugurgural/Git/Mug.CheckoutApp/Mug.CheckoutApp.Strategy/bin/Debug/netcoreapp2.0/Mug.CheckoutApp.Strategy.pdb
+/Users/mehmetugurgural/Git/Mug.CheckoutApp/Mug.CheckoutApp.Strategy/obj/Debug/netcoreapp2.0/Mug.CheckoutApp.Strategy.csproj.CoreCompileInputs.cache
+/Users/mehmetugurgural/Git/Mug.CheckoutApp/Mug.CheckoutApp.Strategy/obj/Debug/netcoreapp2.0/Mug.CheckoutApp.Strategy.AssemblyInfoInputs.cache
+/Users/mehmetugurgural/Git/Mug.CheckoutApp/Mug.CheckoutApp.Strategy/obj/Debug/netcoreapp2.0/Mug.CheckoutApp.Strategy.AssemblyInfo.cs
+/Users/mehmetugurgural/Git/Mug.CheckoutApp/Mug.CheckoutApp.Strategy/obj/Debug/netcoreapp2.0/Mug.CheckoutApp.Strategy.dll
+/Users/mehmetugurgural/Git/Mug.CheckoutApp/Mug.CheckoutApp.Strategy/obj/Debug/netcoreapp2.0/Mug.CheckoutApp.Strategy.pdb
+/Users/mehmetugurgural/Git/Mug.CheckoutApp/Mug.CheckoutApp.Strategy/bin/Debug/netcoreapp2.0/Mug.CheckoutApp.Data.dll
+/Users/mehmetugurgural/Git/Mug.CheckoutApp/Mug.CheckoutApp.Strategy/bin/Debug/netcoreapp2.0/Mug.CheckoutApp.Data.pdb

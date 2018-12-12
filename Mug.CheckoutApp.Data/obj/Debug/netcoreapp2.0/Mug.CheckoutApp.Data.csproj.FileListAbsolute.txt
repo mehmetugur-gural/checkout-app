@@ -1,0 +1,8 @@
+/Users/mehmetugurgural/Git/Mug.CheckoutApp/Mug.CheckoutApp.Data/bin/Debug/netcoreapp2.0/Mug.CheckoutApp.Data.deps.json
+/Users/mehmetugurgural/Git/Mug.CheckoutApp/Mug.CheckoutApp.Data/bin/Debug/netcoreapp2.0/Mug.CheckoutApp.Data.dll
+/Users/mehmetugurgural/Git/Mug.CheckoutApp/Mug.CheckoutApp.Data/bin/Debug/netcoreapp2.0/Mug.CheckoutApp.Data.pdb
+/Users/mehmetugurgural/Git/Mug.CheckoutApp/Mug.CheckoutApp.Data/obj/Debug/netcoreapp2.0/Mug.CheckoutApp.Data.csproj.CoreCompileInputs.cache
+/Users/mehmetugurgural/Git/Mug.CheckoutApp/Mug.CheckoutApp.Data/obj/Debug/netcoreapp2.0/Mug.CheckoutApp.Data.AssemblyInfoInputs.cache
+/Users/mehmetugurgural/Git/Mug.CheckoutApp/Mug.CheckoutApp.Data/obj/Debug/netcoreapp2.0/Mug.CheckoutApp.Data.AssemblyInfo.cs
+/Users/mehmetugurgural/Git/Mug.CheckoutApp/Mug.CheckoutApp.Data/obj/Debug/netcoreapp2.0/Mug.CheckoutApp.Data.dll
+/Users/mehmetugurgural/Git/Mug.CheckoutApp/Mug.CheckoutApp.Data/obj/Debug/netcoreapp2.0/Mug.CheckoutApp.Data.pdb
