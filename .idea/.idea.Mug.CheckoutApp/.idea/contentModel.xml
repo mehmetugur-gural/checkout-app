@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p=".git/info/exclude" t="IncludeRecursive" />
       <e p="Mug.CheckoutApp.Data" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="DiscountOffer.cs" t="Include" />
@@ -29,6 +33,19 @@
         </e>
         <e p="ProductService.cs" t="Include" />
       </e>
+      <e p="Mug.CheckoutApp.Service.Test" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Mug.CheckoutApp.Service.Test.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="Mug.CheckoutApp.Service.Test.AssemblyInfo.cs" t="Include" />
+              <e p="Mug.CheckoutApp.Service.Test.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ProductServiceTest.cs" t="Include" />
+      </e>
       <e p="Mug.CheckoutApp.sln" t="IncludeFlat" />
       <e p="Mug.CheckoutApp.Strategy" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
@@ -43,6 +60,20 @@
         </e>
         <e p="SixForThreeDiscountStrategy.cs" t="Include" />
         <e p="ThreeForTwoDiscountStrategy.cs" t="Include" />
+      </e>
+      <e p="Mug.CheckoutApp.Strategy.Test" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Mug.CheckoutApp.Strategy.Test.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="Mug.CheckoutApp.Strategy.Test.AssemblyInfo.cs" t="Include" />
+              <e p="Mug.CheckoutApp.Strategy.Test.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="SixForThreeDiscountTest.cs" t="Include" />
+        <e p="ThreeForTwoDiscountTest.cs" t="Include" />
       </e>
       <e p="Mug.CheckoutApp.Web" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
@@ -153,6 +184,7 @@
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
+      <e p="Tests" t="Include" />
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_Mug.CheckoutApp.1052333653.00" t="ExcludeRecursive" />

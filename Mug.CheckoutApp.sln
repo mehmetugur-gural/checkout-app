@@ -8,6 +8,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mug.CheckoutApp.Data", "Mug
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mug.CheckoutApp.Service", "Mug.CheckoutApp.Service\Mug.CheckoutApp.Service.csproj", "{0577D826-A75E-4D85-B3A6-73A38EE2D9E9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3C19D561-D464-4ED7-B7C8-67DE0AD06FC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mug.CheckoutApp.Service.Test", "Mug.CheckoutApp.Service.Test\Mug.CheckoutApp.Service.Test.csproj", "{700F0034-285A-4713-A30E-ACA1CCC22A99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mug.CheckoutApp.Strategy.Test", "Mug.CheckoutApp.Strategy.Test\Mug.CheckoutApp.Strategy.Test.csproj", "{881EC991-90F3-418F-94CC-924CF17A6202}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +36,17 @@ Global
 		{0577D826-A75E-4D85-B3A6-73A38EE2D9E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0577D826-A75E-4D85-B3A6-73A38EE2D9E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0577D826-A75E-4D85-B3A6-73A38EE2D9E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{700F0034-285A-4713-A30E-ACA1CCC22A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{700F0034-285A-4713-A30E-ACA1CCC22A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{700F0034-285A-4713-A30E-ACA1CCC22A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{700F0034-285A-4713-A30E-ACA1CCC22A99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{881EC991-90F3-418F-94CC-924CF17A6202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{881EC991-90F3-418F-94CC-924CF17A6202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{881EC991-90F3-418F-94CC-924CF17A6202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{881EC991-90F3-418F-94CC-924CF17A6202}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{700F0034-285A-4713-A30E-ACA1CCC22A99} = {3C19D561-D464-4ED7-B7C8-67DE0AD06FC9}
+		{881EC991-90F3-418F-94CC-924CF17A6202} = {3C19D561-D464-4ED7-B7C8-67DE0AD06FC9}
 	EndGlobalSection
 EndGlobal
