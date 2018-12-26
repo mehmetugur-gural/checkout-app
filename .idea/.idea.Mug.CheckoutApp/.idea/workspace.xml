@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22064db8-2543-4de6-a1c6-90737c79b297" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mug.CheckoutApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mug.CheckoutApp/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mug.CheckoutApp/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mug.CheckoutApp/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Mug.CheckoutApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mug.CheckoutApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mug.CheckoutApp/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mug.CheckoutApp/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mug.CheckoutApp.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Mug.CheckoutApp.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mug.CheckoutApp.Strategy.Test/ThreeForTwoDiscountTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mug.CheckoutApp.Strategy.Test/ThreeForTwoDiscountTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mug.CheckoutApp.Strategy.Test/obj/Debug/netcoreapp2.0/Mug.CheckoutApp.Strategy.Test.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Mug.CheckoutApp.Strategy.Test/obj/Debug/netcoreapp2.0/Mug.CheckoutApp.Strategy.Test.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mug.CheckoutApp.Strategy.Test/obj/Debug/netcoreapp2.0/Mug.CheckoutApp.Strategy.Test.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Mug.CheckoutApp.Strategy.Test/obj/Debug/netcoreapp2.0/Mug.CheckoutApp.Strategy.Test.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mug.CheckoutApp.Strategy.Test/obj/Debug/netcoreapp2.0/Mug.CheckoutApp.Strategy.Test.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Mug.CheckoutApp.Strategy.Test/obj/Debug/netcoreapp2.0/Mug.CheckoutApp.Strategy.Test.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,10 +18,11 @@
     <session id="-1417528720">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -40,13 +41,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="4442" />
+          <entry key="cs" value="4466" />
           <entry key="cshtml" value="440" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="4442" />
+          <entry key="C#" value="4466" />
           <entry key="Razor" value="440" />
         </counts>
       </usages-collector>
@@ -61,7 +62,6 @@
               <caret line="8" column="87" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="87" />
               <folding>
                 <marker date="1544625095284" expanded="false" signature="6:93" ph="..." />
-                <marker date="1544625095284" expanded="true" signature="128:1991" ph="{...}" />
                 <marker date="1544625095284" expanded="true" signature="135:318" ph="/// Main calculation logic service for product cart items. ... " />
                 <marker date="1544625095284" expanded="true" signature="362:1989" ph="{...}" />
                 <marker date="1544625095284" expanded="true" signature="377:607" ph="/// Discount calculator operation for cart items. ... " />
@@ -75,13 +75,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Mug.CheckoutApp.Service.Test/ProductServiceTest.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="784">
+            <state relative-caret-position="752">
               <caret line="48" column="62" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
               <folding>
-                <marker date="1544632100618" expanded="true" signature="6:55" ph="..." />
+                <marker date="1544632100618" expanded="false" signature="6:55" ph="..." />
                 <marker date="1544632100618" expanded="true" signature="95:1555" ph="{...}" />
                 <marker date="1544632100618" expanded="true" signature="102:389" ph="/// Tests for ProductService class. ... " />
                 <marker date="1544632100618" expanded="true" signature="425:1553" ph="{...}" />
@@ -96,10 +96,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mug.CheckoutApp.Strategy.Test/SixForThreeDiscountTest.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="368">
+              <caret line="24" column="77" lean-forward="true" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="77" />
               <folding>
-                <marker date="1544632362003" expanded="true" signature="6:64" ph="..." />
+                <marker date="1544632362003" expanded="false" signature="6:64" ph="..." />
                 <marker date="1544632362003" expanded="true" signature="105:1323" ph="{...}" />
                 <marker date="1544632362003" expanded="true" signature="112:412" ph="/// Tests for SixForThreeDiscountStrategy class. ... " />
                 <marker date="1544632362003" expanded="true" signature="453:1321" ph="{...}" />
@@ -110,18 +110,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mug.CheckoutApp.Strategy.Test/ThreeForTwoDiscountTest.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="208">
               <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding>
-                <marker date="1544632480296" expanded="true" signature="6:64" ph="..." />
-                <marker date="1544632480296" expanded="true" signature="105:1313" ph="{...}" />
-                <marker date="1544632480296" expanded="true" signature="112:412" ph="/// Tests for ThreeForTwoDiscountStrategy class. ... " />
-                <marker date="1544632480296" expanded="true" signature="453:1311" ph="{...}" />
-                <marker date="1544632480296" expanded="true" signature="544:1305" ph="{...}" />
-                <marker date="1544632480296" expanded="true" signature="649:1012" ph="{...}" />
+                <marker date="1545860824340" expanded="false" signature="6:64" ph="..." />
+                <marker date="1545860824340" expanded="true" signature="105:1315" ph="{...}" />
+                <marker date="1545860824340" expanded="true" signature="112:412" ph="/// Tests for ThreeForTwoDiscountStrategy class. ... " />
+                <marker date="1545860824340" expanded="true" signature="453:1313" ph="{...}" />
+                <marker date="1545860824340" expanded="true" signature="546:1307" ph="{...}" />
+                <marker date="1545860824340" expanded="true" signature="651:1014" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -134,7 +134,6 @@
               <caret line="22" column="110" selection-start-line="17" selection-start-column="15" selection-end-line="22" selection-end-column="110" />
               <folding>
                 <marker date="1544573661981" expanded="false" signature="6:61" ph="..." />
-                <marker date="1544573661981" expanded="true" signature="96:1810" ph="{...}" />
                 <marker date="1544573661981" expanded="true" signature="103:298" ph="/// Populate the products for cart. ... " />
                 <marker date="1544573661981" expanded="true" signature="330:1808" ph="{...}" />
                 <marker date="1544573661981" expanded="true" signature="400:1802" ph="{...}" />
@@ -149,11 +148,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mug.CheckoutApp.Web/Controllers/HomeController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
+            <state relative-caret-position="672">
               <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
               <folding>
                 <marker date="1544627831124" expanded="true" signature="6:247" ph="..." />
-                <marker date="1544627831124" expanded="true" signature="290:1798" ph="{...}" />
                 <marker date="1544627831124" expanded="true" signature="337:1796" ph="{...}" />
                 <marker date="1544627831124" expanded="true" signature="380:520" ph="{...}" />
                 <marker date="1544627831124" expanded="true" signature="558:689" ph="{...}" />
@@ -171,7 +169,6 @@
             <state relative-caret-position="272">
               <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
-                <marker date="1544631792137" expanded="true" signature="63:580" ph="{...}" />
                 <marker date="1544631792137" expanded="true" signature="70:241" ph="/// Calculation strategy for 6 for the price of 3 offer. ... " />
                 <marker date="1544631792137" expanded="true" signature="298:578" ph="{...}" />
                 <marker date="1544631792137" expanded="true" signature="376:572" ph="{...}" />
@@ -186,7 +183,6 @@
             <state relative-caret-position="272">
               <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
-                <marker date="1544631808858" expanded="true" signature="63:578" ph="{...}" />
                 <marker date="1544631808858" expanded="true" signature="70:239" ph="/// Calculation strategy for 3 for the price of 2 offer. ... " />
                 <marker date="1544631808858" expanded="true" signature="296:576" ph="{...}" />
                 <marker date="1544631808858" expanded="true" signature="374:570" ph="{...}" />
@@ -262,7 +258,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -273,18 +268,26 @@
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Mug.CheckoutApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Mug.CheckoutApp.Service" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Tests" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Mug.CheckoutApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Mug.CheckoutApp.Strategy" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Tests" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Mug.CheckoutApp.Service.Test" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Mug.CheckoutApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Tests" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Mug.CheckoutApp.Strategy.Test" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -363,12 +366,13 @@
       <option name="presentableId" value="Default" />
       <updated>1544558627218</updated>
       <workItem from="1544558628551" duration="12381000" />
-      <workItem from="1544574147490" duration="15398000" />
+      <workItem from="1544574147490" duration="15876000" />
+      <workItem from="1545860614497" duration="508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27779000" />
+    <option name="totallyTimeSpent" value="28765000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -381,8 +385,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -489,10 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <marker date="1544563469824" expanded="true" signature="37:120" ph="/// Fields for product related discount offer. ... " />
-            <marker date="1544563469824" expanded="true" signature="151:254" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -500,10 +501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="6" column="65" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="65" />
-          <folding>
-            <marker date="1544565971716" expanded="true" signature="63:176" ph="{...}" />
-            <marker date="1544565971716" expanded="true" signature="96:174" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -511,11 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="15" column="28" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <marker date="1544573241138" expanded="true" signature="30:666" ph="{...}" />
-            <marker date="1544573241138" expanded="true" signature="37:101" ph="/// Fields for product cart ... " />
-            <marker date="1544573241138" expanded="true" signature="134:664" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -529,49 +521,12 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Mug.CheckoutApp.Web/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1544558742294" expanded="false" signature="6:255" ph="..." />
-            <marker date="1544558742294" expanded="true" signature="286:607" ph="{...}" />
-            <marker date="1544558742294" expanded="true" signature="313:605" ph="{...}" />
-            <marker date="1544558742294" expanded="true" signature="366:424" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Mug.CheckoutApp.Web/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding>
-            <marker date="1544558742295" expanded="false" signature="6:258" ph="..." />
-            <marker date="1544558742295" expanded="true" signature="289:1385" ph="{...}" />
-            <marker date="1544558742295" expanded="true" signature="316:1383" ph="{...}" />
-            <marker date="1544558742295" expanded="true" signature="375:438" ph="{...}" />
-            <marker date="1544558742295" expanded="true" signature="661:712" ph="{...}" />
-            <marker date="1544558742295" expanded="true" signature="900:1377" ph="{...}" />
-            <marker date="1544558742295" expanded="true" signature="947:1024" ph="{...}" />
-            <marker date="1544558742295" expanded="true" signature="1041:1125" ph="{...}" />
-            <marker date="1544558742295" expanded="true" signature="1194:1365" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mug.CheckoutApp.Web/Controllers/HomeController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-          <folding>
-            <marker date="1544627831124" expanded="true" signature="6:247" ph="..." />
-            <marker date="1544627831124" expanded="true" signature="290:1798" ph="{...}" />
-            <marker date="1544627831124" expanded="true" signature="337:1796" ph="{...}" />
-            <marker date="1544627831124" expanded="true" signature="380:520" ph="{...}" />
-            <marker date="1544627831124" expanded="true" signature="558:689" ph="{...}" />
-            <marker date="1544627831124" expanded="true" signature="754:1790" ph="{...}" />
-            <marker date="1544627831124" expanded="true" signature="1226:1388" ph="{...}" />
-            <marker date="1544627831124" expanded="true" signature="1442:1610" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -579,36 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
-          <folding>
-            <marker date="1544627831115" expanded="true" signature="57:117" ph="@..." />
-            <marker date="1544627831115" expanded="true" signature="118:3363" ph="&lt;html.../&gt;" />
-            <marker date="1544627831115" expanded="true" signature="153:442" ph="&lt;head.../&gt;" />
-            <marker date="1544627831115" expanded="true" signature="545:3355" ph="&lt;div.../&gt;" />
-            <marker date="1544627831115" expanded="true" signature="573:3348" ph="@..." />
-            <marker date="1544627831115" expanded="true" signature="638:3348" ph="{...}" />
-            <marker date="1544627831115" expanded="true" signature="653:3342" ph="&lt;table.../&gt;" />
-            <marker date="1544627831115" expanded="true" signature="725:1060" ph="&lt;thead.../&gt;" />
-            <marker date="1544627831115" expanded="true" signature="745:1039" ph="&lt;tr.../&gt;" />
-            <marker date="1544627831115" expanded="true" signature="1073:2795" ph="&lt;tbody.../&gt;" />
-            <marker date="1544627831115" expanded="true" signature="1093:2774" ph="@..." />
-            <marker date="1544627831115" expanded="true" signature="1131:2774" ph="{...}" />
-            <marker date="1544627831115" expanded="true" signature="1162:2760" ph="&lt;tr.../&gt;" />
-            <marker date="1544627831115" expanded="true" signature="1268:2162" ph="&lt;td.../&gt;" />
-            <marker date="1544627831115" expanded="true" signature="1315:2136" ph="&lt;div.../&gt;" />
-            <marker date="1544627831115" expanded="true" signature="1361:1538" ph="&lt;div.../&gt;" />
-            <marker date="1544627831115" expanded="true" signature="1567:2105" ph="&lt;div.../&gt;" />
-            <marker date="1544627831115" expanded="true" signature="1765:2070" ph="&lt;span.../&gt;" />
-            <marker date="1544627831115" expanded="true" signature="1827:2030" ph="@{...}" />
-            <marker date="1544627831115" expanded="true" signature="2252:2456" ph="&lt;td.../&gt;" />
-            <marker date="1544627831115" expanded="true" signature="2680:2737" ph="&lt;td.../&gt;" />
-            <marker date="1544627831115" expanded="true" signature="2808:3325" ph="&lt;tfoot.../&gt;" />
-            <marker date="1544627831115" expanded="true" signature="2828:2932" ph="&lt;tr.../&gt;" />
-            <marker date="1544627831115" expanded="true" signature="2868:2914" ph="&lt;td.../&gt;" />
-            <marker date="1544627831115" expanded="true" signature="2945:3304" ph="&lt;tr.../&gt;" />
-            <marker date="1544627831115" expanded="true" signature="2966:2992" ph="&lt;td.../&gt;" />
-            <marker date="1544627831115" expanded="true" signature="3065:3121" ph="&lt;td.../&gt;" />
-            <marker date="1544627831115" expanded="true" signature="3138:3286" ph="&lt;td.../&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -618,7 +543,6 @@
           <caret line="8" column="87" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="87" />
           <folding>
             <marker date="1544625095284" expanded="false" signature="6:93" ph="..." />
-            <marker date="1544625095284" expanded="true" signature="128:1991" ph="{...}" />
             <marker date="1544625095284" expanded="true" signature="135:318" ph="/// Main calculation logic service for product cart items. ... " />
             <marker date="1544625095284" expanded="true" signature="362:1989" ph="{...}" />
             <marker date="1544625095284" expanded="true" signature="377:607" ph="/// Discount calculator operation for cart items. ... " />
@@ -631,55 +555,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mug.CheckoutApp.Strategy/ThreeForTwoDiscountStrategy.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <marker date="1544631808858" expanded="true" signature="63:578" ph="{...}" />
-            <marker date="1544631808858" expanded="true" signature="70:239" ph="/// Calculation strategy for 3 for the price of 2 offer. ... " />
-            <marker date="1544631808858" expanded="true" signature="296:576" ph="{...}" />
-            <marker date="1544631808858" expanded="true" signature="374:570" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mug.CheckoutApp.Service.Test/ProductServiceTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="48" column="62" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
-          <folding>
-            <marker date="1544632100618" expanded="true" signature="6:55" ph="..." />
-            <marker date="1544632100618" expanded="true" signature="95:1555" ph="{...}" />
-            <marker date="1544632100618" expanded="true" signature="102:389" ph="/// Tests for ProductService class. ... " />
-            <marker date="1544632100618" expanded="true" signature="425:1553" ph="{...}" />
-            <marker date="1544632100618" expanded="true" signature="494:776" ph="{...}" />
-            <marker date="1544632100618" expanded="true" signature="848:1148" ph="{...}" />
-            <marker date="1544632100618" expanded="true" signature="1236:1547" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mug.CheckoutApp.Strategy/SixForThreeDiscountStrategy.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <marker date="1544631792137" expanded="true" signature="63:580" ph="{...}" />
-            <marker date="1544631792137" expanded="true" signature="70:241" ph="/// Calculation strategy for 6 for the price of 3 offer. ... " />
-            <marker date="1544631792137" expanded="true" signature="298:578" ph="{...}" />
-            <marker date="1544631792137" expanded="true" signature="376:572" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mug.CheckoutApp.Service/ProductService.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="22" column="110" selection-start-line="17" selection-start-column="15" selection-end-line="22" selection-end-column="110" />
           <folding>
             <marker date="1544573661981" expanded="false" signature="6:61" ph="..." />
-            <marker date="1544573661981" expanded="true" signature="96:1810" ph="{...}" />
             <marker date="1544573661981" expanded="true" signature="103:298" ph="/// Populate the products for cart. ... " />
             <marker date="1544573661981" expanded="true" signature="330:1808" ph="{...}" />
             <marker date="1544573661981" expanded="true" signature="400:1802" ph="{...}" />
@@ -690,12 +571,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Mug.CheckoutApp.Web/Controllers/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+          <folding>
+            <marker date="1544627831124" expanded="true" signature="6:247" ph="..." />
+            <marker date="1544627831124" expanded="true" signature="337:1796" ph="{...}" />
+            <marker date="1544627831124" expanded="true" signature="380:520" ph="{...}" />
+            <marker date="1544627831124" expanded="true" signature="558:689" ph="{...}" />
+            <marker date="1544627831124" expanded="true" signature="754:1790" ph="{...}" />
+            <marker date="1544627831124" expanded="true" signature="1226:1388" ph="{...}" />
+            <marker date="1544627831124" expanded="true" signature="1442:1610" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mug.CheckoutApp.Strategy/SixForThreeDiscountStrategy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <marker date="1544631792137" expanded="true" signature="70:241" ph="/// Calculation strategy for 6 for the price of 3 offer. ... " />
+            <marker date="1544631792137" expanded="true" signature="298:578" ph="{...}" />
+            <marker date="1544631792137" expanded="true" signature="376:572" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mug.CheckoutApp.Strategy/ThreeForTwoDiscountStrategy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <marker date="1544631808858" expanded="true" signature="70:239" ph="/// Calculation strategy for 3 for the price of 2 offer. ... " />
+            <marker date="1544631808858" expanded="true" signature="296:576" ph="{...}" />
+            <marker date="1544631808858" expanded="true" signature="374:570" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mug.CheckoutApp.Strategy.Test/ThreeForTwoDiscountTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <marker date="1545860824340" expanded="false" signature="6:64" ph="..." />
+            <marker date="1545860824340" expanded="true" signature="105:1315" ph="{...}" />
+            <marker date="1545860824340" expanded="true" signature="112:412" ph="/// Tests for ThreeForTwoDiscountStrategy class. ... " />
+            <marker date="1545860824340" expanded="true" signature="453:1313" ph="{...}" />
+            <marker date="1545860824340" expanded="true" signature="546:1307" ph="{...}" />
+            <marker date="1545860824340" expanded="true" signature="651:1014" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Mug.CheckoutApp.Strategy.Test/SixForThreeDiscountTest.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="368">
+          <caret line="24" column="77" lean-forward="true" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="77" />
           <folding>
-            <marker date="1544632362003" expanded="true" signature="6:64" ph="..." />
+            <marker date="1544632362003" expanded="false" signature="6:64" ph="..." />
             <marker date="1544632362003" expanded="true" signature="105:1323" ph="{...}" />
             <marker date="1544632362003" expanded="true" signature="112:412" ph="/// Tests for SixForThreeDiscountStrategy class. ... " />
             <marker date="1544632362003" expanded="true" signature="453:1321" ph="{...}" />
@@ -705,17 +641,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mug.CheckoutApp.Strategy.Test/ThreeForTwoDiscountTest.cs">
+    <entry file="file://$PROJECT_DIR$/Mug.CheckoutApp.Service.Test/ProductServiceTest.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="752">
+          <caret line="48" column="62" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
           <folding>
-            <marker date="1544632480296" expanded="true" signature="6:64" ph="..." />
-            <marker date="1544632480296" expanded="true" signature="105:1313" ph="{...}" />
-            <marker date="1544632480296" expanded="true" signature="112:412" ph="/// Tests for ThreeForTwoDiscountStrategy class. ... " />
-            <marker date="1544632480296" expanded="true" signature="453:1311" ph="{...}" />
-            <marker date="1544632480296" expanded="true" signature="544:1305" ph="{...}" />
-            <marker date="1544632480296" expanded="true" signature="649:1012" ph="{...}" />
+            <marker date="1544632100618" expanded="false" signature="6:55" ph="..." />
+            <marker date="1544632100618" expanded="true" signature="95:1555" ph="{...}" />
+            <marker date="1544632100618" expanded="true" signature="102:389" ph="/// Tests for ProductService class. ... " />
+            <marker date="1544632100618" expanded="true" signature="425:1553" ph="{...}" />
+            <marker date="1544632100618" expanded="true" signature="494:776" ph="{...}" />
+            <marker date="1544632100618" expanded="true" signature="848:1148" ph="{...}" />
+            <marker date="1544632100618" expanded="true" signature="1236:1547" ph="{...}" />
           </folding>
         </state>
       </provider>

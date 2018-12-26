@@ -11,7 +11,7 @@ namespace Mug.CheckoutApp.Strategy.Test
     public class ThreeForTwoDiscountTest
     {
         [Fact]
-        public void ProductEligibleForSixForThreeWhenCartCountIsSix()
+        public void ProductEligibleForThreeForTwoWhenCartCountIsThree()
         {
             //Arrange
             ProductCartItem product = new ProductCartItem()
@@ -25,10 +25,10 @@ namespace Mug.CheckoutApp.Strategy.Test
                 ProductDiscountOffer = new DiscountOffer() { Id = 1, DiscountType = DiscountType.ThreeForTwo }
             };
             
-            var sixForThreeStrategy = new SixForThreeDiscountStrategy();
+            var threeForTwoStrategy = new ThreeForTwoDiscountStrategy();
             
             //Act
-            var calculatedPrice = sixForThreeStrategy.CalculateDiscountPrice(product);
+            var calculatedPrice = threeForTwoStrategy.CalculateDiscountPrice(product);
             
             //Assert
             calculatedPrice.Should().Be(2);
